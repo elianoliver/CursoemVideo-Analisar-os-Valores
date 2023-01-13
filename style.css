@@ -1,0 +1,61 @@
+*{
+    /*outline: 1px solid red;*/
+}
+
+body{
+    background-color: rgb(70,142,236);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+
+    padding: 15px;
+    width: 500px;
+    margin: 0 auto;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+div#resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+
+}
+
+div#txtn{
+    font-size: large;
+}
+
+div#info{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+select{
+    font-size: large;
+    text-align: justify;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    padding: 5px;
+    overflow: auto;
+}
